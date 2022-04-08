@@ -1,0 +1,13 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cal Colson <14209384+CalColson@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "tailwind": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}

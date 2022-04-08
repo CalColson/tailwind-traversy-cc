@@ -5,8 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>tailwind play</title>
+
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  
+  <!-- navbar -->
+  <nav class="relative container mx-auto p-6">
+    <div class="flex items-center justify-between">
+      <!-- logo -->
+      <div class="pt-2">
+        <img src="img/logo.svg" alt="manage logo">
+      </div>
+      <!-- menu items -->
+      <div class="hidden md:flex space-x-6">
+        <a href="#" class="hover:text-darkGrayishBlue">pricing</a>
+        <a href="#" class="hover:text-darkGrayishBlue">product</a>
+        <a href="#" class="hover:text-darkGrayishBlue">about us</a>
+        <a href="#" class="hover:text-darkGrayishBlue">careers</a>
+        <a href="#" class="hover:text-darkGrayishBlue">community</a>
+      </div>
+      <!-- button -->
+      <a href="" class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
+    </div>
+  </nav>
 </body>
 </html>
